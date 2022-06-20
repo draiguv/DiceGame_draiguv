@@ -58,3 +58,11 @@ const getWinner = (playerOneDie, playerTwoDie) => {
         document.querySelector("h1").innerHTML = "Draw!";
     }
 }
+
+const resetPage = setTimeout(resetPageFunc, 10000)
+
+const resetPageFunc = () => {
+    document.querySelector("h1").innerHTML = "DICE GAME";
+    document.querySelector(".player-one").setAttribute("src", "images/dice-1.png");
+    document.querySelector(".player-two").setAttribute("src", "images/dice-1.png");
+}
