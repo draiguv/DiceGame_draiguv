@@ -1,0 +1,57 @@
+/* ELEMENT SELECTORS *************************************************************************/
+body {
+    background-color: #184D47;
+    color: #C64756;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+p {
+    font-family: 'Play', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* ID SELECTORS ******************************************************************************/
+#page-header {
+    margin-top: 6rem;
+}
+
+#page-body {
+    padding: 3% 20% 0;
+}
+
+#page-footer {
+    padding: 2%;
+}
+
+/* CLASS SELECTOR ****************************************************************************/
+.button-roll-dice {
+    margin: 2% 0;
+}
+
+.dice-header-image {
+    width: 10rem;
+}
+
+.dice-player {
+    width: 15rem;
+}
+
+.grid-col {
+    margin-bottom: 50px;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-white {
+    color: #fff;
+}
